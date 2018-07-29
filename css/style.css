@@ -722,6 +722,8 @@ p {
 .img-grid img {
   position: relative;
   z-index: 10;
+  height:190px;
+  width:360px;
 }
 .img-grid a {
   position: absolute;

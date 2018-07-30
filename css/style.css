@@ -14,7 +14,7 @@ body {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
-  color: #7a7e89;
+  color: #fff;
   background: #f7f7f7;
 }
 body.fh5co-overflow {
@@ -57,6 +57,10 @@ p {
   margin-bottom: 30px;
 }
 
+pblue {
+  color: #02469b;
+  margin-bottom: 30px;
+}
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
@@ -85,13 +89,13 @@ p {
 }
 
 .btn-primary {
-  background: #f9ad81;
-  color: #fff;
-  border: 2px solid #f9ad81;
+  background: #fff;
+  color: #02469b;
+  border: 2px solid #02469b;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #f89d69 !important;
-  border-color: #f89d69 !important;
+  background: #fff !important;
+  border-color: #02469b !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -275,7 +279,7 @@ p {
 }
 #fh5co-header #fh5co-main-nav ul li.active a {
   color: #fff;
-  border-bottom: 2px solid #f9ad81;
+  border-bottom: 2px solid #fff;
 }
 #fh5co-header.navbar-fixed-top {
   position: fixed !important;
@@ -308,7 +312,7 @@ p {
   color: #f9ad81;
 }
 #fh5co-header.navbar-fixed-top #fh5co-main-nav ul li.active a {
-  color: #f9ad81;
+  color: #fff;
   border-bottom: 2px solid transparent;
 }
 
@@ -317,7 +321,8 @@ p {
  */
 #fh5co-home {
   min-height: 700px;
-  background: #f03252 url(../images/loader.gif) no-repeat center center;
+  background: #02469b url(../images/nolli.jpg) no-repeat center center;
+  background-size: 100% 100%;
 }
 #fh5co-home .flexslider {
   border: none;
@@ -339,7 +344,7 @@ p {
   font-family: "Roboto Slab", sans-serif;
   font-size: 50px;
   font-weight: 400;
-  color: #f03252;
+  color: #fff;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -363,7 +368,7 @@ p {
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #f03252;
+  color: #fff;
   font-weight: 400;
   display: block;
   position: relative;
@@ -398,7 +403,7 @@ p {
   left: 0;
   right: 0;
   opacity: .3;
-  background: #444853;
+  background: #fff;
 }
 #fh5co-home .flexslider .flex-control-nav,
 #fh5co-home .flexslider .flex-direction-nav {
@@ -472,7 +477,7 @@ p {
   color: #f9ad81;
 }
 #fh5co-offcanvas nav ul li.active a {
-  color: #f9ad81;
+  color: #fff;
 }
 .offcanvas-visible #fh5co-offcanvas {
   -moz-transform: translateX(0px);
@@ -504,7 +509,7 @@ p {
 }
 
 #fh5co-about {
-  background: #444853;
+  background: #02469b;
 }
 #fh5co-about h2 {
   color: #fff;
@@ -582,7 +587,7 @@ p {
   bottom: 0;
   z-index: 3;
   opacity: .7;
-  background: #444853;
+  background: #02469b;
 }
 #fh5co-testimony .flexslider {
   border: transparent !important;
@@ -646,7 +651,7 @@ p {
   position: relative;
   background: transparent;
   box-shadow: none;
-  border: 2px solid #f9ad81;
+  border: 2px solid #fff;
 }
 
 #fh5co-footer {
@@ -660,7 +665,7 @@ p {
   }
 }
 #fh5co-footer a {
-  color: #f67d38;
+  color: #02469b;
 }
 #fh5co-footer a:hover {
   text-decoration: underline;
@@ -733,7 +738,7 @@ p {
   bottom: 0;
   opacity: 0;
   z-index: 12;
-  background: rgba(68, 72, 83, 0.9);
+  background: rgb(2, 70, 155, 0.6);
   text-align: center;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -980,5 +985,3 @@ p {
     top: 29%;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

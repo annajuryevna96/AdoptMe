@@ -354,6 +354,7 @@ pblue {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  background: rgb(2, 70, 155, 0.5);
 }
 @media screen and (max-width: 992px) {
   #fh5co-home .flexslider .fh5co-text h1 {
@@ -368,7 +369,7 @@ pblue {
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #fff;
+  color: #02469b;
   font-weight: 400;
   display: block;
   position: relative;
@@ -791,7 +792,7 @@ pblue {
   font-size: 11px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #41454f;
+  color: #02469b;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   opacity: .4;

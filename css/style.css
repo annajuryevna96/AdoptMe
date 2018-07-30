@@ -317,7 +317,7 @@ p {
  */
 #fh5co-home {
   min-height: 700px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
+  background: #f03252 url(../images/loader.gif) no-repeat center center;
 }
 #fh5co-home .flexslider {
   border: none;
@@ -339,7 +339,7 @@ p {
   font-family: "Roboto Slab", sans-serif;
   font-size: 50px;
   font-weight: 400;
-  color: #fff;
+  color: #f03252;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -363,7 +363,7 @@ p {
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #fff;
+  color: #f03252;
   font-weight: 400;
   display: block;
   position: relative;
